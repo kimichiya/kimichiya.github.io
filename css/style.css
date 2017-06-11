@@ -79,7 +79,7 @@ nav {
     -webkit-transform: translate(-50%, -50%);
 }
 
-.grid {
+.gridH {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
@@ -87,8 +87,8 @@ nav {
         "a b c"
         "d e f"
         "g h i";
-    /*grid-column-gap: 10px;
-    grid-row-gap: 10px;*/)
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     display: grid;
     padding: 0;
     margin: 40px 20px;
@@ -150,7 +150,7 @@ nav {
 
 footer {
     width: 100%;
-    background-color: gainsboro;
+    background-color: #231f20;
     color: white;
     text-align: center;
     font-family: ;
@@ -184,4 +184,22 @@ p {
 
 .a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover, .i:hover {
     opacity: 0.5;
+}
+
+.logoCover {
+    width: 100%;
+}
+
+.gridA {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    display: grid;
+    padding: 0;
 }
