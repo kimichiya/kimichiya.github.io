@@ -25,6 +25,11 @@ time, mark, audio, video {
     src: url('lemonmilk.otf');
 }
 
+@font-face {
+    font-family: 'sushi';
+    src: url('tastysushi.ttf');
+}
+
 header {
     width: 100%;
     margin-left: auto;
@@ -32,7 +37,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-flex;
     position: fixed;
-    z-index: 9999
+    z-index: 9999;
 }
 
 body, html {
@@ -91,7 +96,7 @@ nav {
     grid-row-gap: 10px;
     display: grid;
     padding: 0;
-    margin: 40px 20px;
+    margin: 40px 100px;
 }
 
 .a {
@@ -192,9 +197,10 @@ p {
     font-size: 50px;
     text-align: center;
     color: white;
-    background-color: #cacaca;
+    background-color: #231f20;
     padding: 80px 0;
     margin: auto 0;
+    letter-spacing: 1px;
 }
 
 .gridA {
@@ -227,22 +233,45 @@ p {
 }
 .dd {
     grid-area: dd;
-    background-image: url(MinaTwice.jpg);
+    background-image: url(longp.jpg);
     background-size: cover;
 }
 
 #nameTitle {
     font-family: 'milk';
-    padding: 20px 30px;
+    padding: 20px 30px 0 30px;
     display: block;
     font-size: 20px;
     color: white;
 }
 
 #descA {
-    font-size: 16px;
+    font-size: 13px;
+    padding: 0 30px 20px 30px;
+    color: #8BD4CD;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 
+}
+
+#descB {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
     padding: 0 30px;
     color: white;
+}
+
+.logoPartA, .logoPartB, .logoPartC {
+    display: inline-block;
+}
+
+.logoPartB {
+    color:#8BD4CD;
+}
+
+.logoPartC {
+    color: #4c4c4c;
 }
 
 /*SOCIAL MEDIA ICONS ---------------*/
@@ -295,3 +324,10 @@ p {
     -webkit-transition: background 0.2s ease-in-out;
     -moz-transition: background 0.2s ease-in-out;
 }
+
+
+
+
+
+
+
